@@ -6,11 +6,12 @@ removerTarefa(String descricao): Remove uma tarefa da lista com base em sua desc
 obterNumeroTotalTarefas(): Retorna o número total de tarefas na lista.
 obterDescricoesTarefas(): Retorna uma lista contendo a descrição de todas as tarefas na lista.*/    
 public class Tarefa{
-    private String descricao;
+    private final String descricao;
     public Tarefa(String descricao){
         this.descricao = descricao;
     }
     public String getDescricao(){
         return descricao;
     }
+    
 }
